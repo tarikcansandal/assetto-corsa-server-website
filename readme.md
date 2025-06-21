@@ -1,4 +1,4 @@
-# Assetto Corsa Server Showcase UI
+# Assetto Corsa Server Website
 
 A responsive and modern landing page design created specifically for **Assetto Corsa communities** that host multiple server types like Race, Drift, or Overtake.
 
@@ -26,13 +26,13 @@ A responsive and modern landing page design created specifically for **Assetto C
 
 ## 🛣️ Future Enhancements
 
-Planned features to evolve this UI into a full-featured Assetto Corsa community platform:
+Planned features to evolve this UI into a full-featured Assetto Corsa Server platform:
 
 ### 🧩 Core Features
 - [ ] **User Registration & Login**  
       Allow drivers to sign up, log in, and manage personal accounts.
 - [ ] **User Dashboard**  
-      A personal panel for tracking joined servers, favorites, and subscription status.
+      A personal panel for tracking joined servers, favorites, and subscription model.
 - [ ] **Admin Panel**  
       Secure interface for server owners to create, update, or remove server entries and manage users.
 
@@ -67,5 +67,5 @@ Planned features to evolve this UI into a full-featured Assetto Corsa community 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/assetto-corsa-server-ui.git
-   cd assetto-corsa-server-ui
+   git clone https://github.com/tarikcansandal/assetto-corsa-server-website.git
+   cd assetto-corsa-server-website
