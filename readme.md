@@ -17,9 +17,24 @@ A responsive and modern landing page design created specifically for **Assetto C
 
 ## 🚀 Technologies Used
 
+<p align="left">
+  <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/>
+  </a>
+  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40"/>
+  </a>
+</p>
+
 - HTML5 & CSS3
 - Bootstrap 5.3.7
-- Google Fonts: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Google Fonts: [Poppins](https://fonts.google.com/specimen/Poppins) [Special Gothic Expanded One](https://fonts.google.com/specimen/Special+Gothic+Expanded+One)
 - Custom SCSS-style CSS (no preprocessor required)
 
 ---

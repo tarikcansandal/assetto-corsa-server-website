@@ -6,22 +6,24 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Assetto Corsa</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-<body>
+<body style="height: 100vh; position: relative;">
 
 
    <nav class="navbar navbar-assetto navbar-expand-lg fixed-top">
       <div class="container">
-         <a class="navbar-brand" href="#"><img src="/assets/images/logo.png" alt="" class="img-fluid"></a>
+         <a class="navbar-brand" href="/"><img src="/assets/images/logo.png" alt="" class="img-fluid"></a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
-               <li class="nav-item"><a class="nav-link active" href="#">How To Play</a></li>
+               <li class="nav-item"><a class="nav-link active" href="/how-to-play.php">How To Play</a></li>
                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
             </ul>
             <ul class="navbar-nav ms-auto">
@@ -39,7 +41,7 @@
          <source src="/assets/videos/background.mp4" type="video/mp4" />
       </video>
       <div class="container video-overlay-content">
-         <h1>ASSETTO CORSA</h1>
+         <h1 class="text-gradient">ASSETTO CORSA</h1>
          <p class="mt-2">
             Discover custom cars, unique highway maps, and unmatched cut-up competitions.
             <br>
@@ -50,7 +52,10 @@
    </div>
 
    <section class="container-fluid">
-      <h2 class="mt-5 mb-4">Choose Your<br>Style For Driving</h2>
+      <h2 class="mt-5 mb-4 text-poppins text-gradient">What Kind of Driver Are You?</h2>
+      <p>You're a competitive racer chasing milliseconds, a drifter chasing style points, or a thrill-seeker weaving through traffic at night. You're in the right place. Our servers are more than just tracks. They're communities built around clean driving, passionate players, and unforgettable moments.</p>
+      <p class="mb-5">Each server is carefully crafted with handpicked mods, optimized configurations, and real-time feedback from our drivers. From our Shutoko-inspired overtake routes to precision drift layouts and grid-start race servers. We offer an experience tailored to every style of driving.</p>
+      <h2 class="mt-5 mb-3 text-poppins text-gradient">Choose Your Style</h2>
       </div>
 
       <div class="row justify-content-center">
@@ -60,7 +65,7 @@
                <div class="index-card-title">Race</div>
                <div class="index-card-overlay">
                   <p>Join competitive races with qualifying sessions and real-time lap tracking.</p>
-                  <button class="btn btn-secondary">Detay</button>
+                  <button class="btn btn-secondary">Drive Now</button>
                </div>
             </div>
             <div class="index-card">
@@ -68,7 +73,7 @@
                <div class="index-card-title">Overtake</div>
                <div class="index-card-overlay">
                   <p>Sharpen your racecraft by overtaking bots and players in realistic traffic scenarios.</p>
-                  <button class="btn btn-secondary">Detay</button>
+                  <button class="btn btn-secondary">Drive Now</button>
                </div>
             </div>
             <div class="index-card">
@@ -76,15 +81,49 @@
                <div class="index-card-title">Drift</div>
                <div class="index-card-overlay">
                   <p>Slide through technical corners and practice tandems in dedicated drift zones.</p>
-                  <button class="btn btn-secondary">Detay</button>
+                  <button class="btn btn-secondary">Drive Now</button>
                </div>
             </div>
          </div>
       </div>
    </section>
 
+   <section class="index-banner-1">
+      <h2 class="mt-5">Are You Ready?</h2>
+      <p>Let's drive</p>
+      <a href="" class="btn btn-primary">Let's Drive!</a>
+
+
+   </section>
+   <section class="container-fluid">
+
+   </section>
+
+
+   <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="liveToast" class="toast glass-area p-3" role="alert" aria-live="assertive" aria-atomic="true">
+         <div class="toast-body">
+            <iconify-icon icon="line-md:cookie-filled" width="64" height="64"></iconify-icon>
+            <p>asd asda sda das dasd asdasdas ada das dasd asd</p>
+            <iconify-icon icon="line-md:cookie-check-filled" width="24" height="24"></iconify-icon>
+            <iconify-icon icon="line-md:cookie-remove-filled" width="24" height="24"></iconify-icon>
+            Hello, world! This is a toast message.
+         </div>
+      </div>
+   </div>
+
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <script>
+      const toastEl = document.getElementById('liveToast');
+      const toast = new bootstrap.Toast(toastEl, {
+         autohide: false
+      });
+      toast.show();
+   </script>
+
 </body>
 
 </html>

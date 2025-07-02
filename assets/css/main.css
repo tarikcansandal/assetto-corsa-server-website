@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
 
 body {
    font-family: "Poppins", sans-serif;
@@ -17,6 +18,30 @@ body {
 
 p {
    font-size: 17px;
+}
+
+.text-left {
+   text-align: left;
+}
+
+.text-right {
+   text-align: right;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.text-gray {
+   color: #cacaca;
+}
+
+.text-poppins {
+   font-family: 'Poppins', sans-serif !important;
+}
+
+.text-gothic {
+   font-family: "Special Gothic Expanded One", sans-serif !important;
 }
 
 .btn-primary {
@@ -143,18 +168,27 @@ p {
 .video-overlay-content h1 {
    font-weight: 900;
    font-size: 95px;
-   font-style: italic;
-   background: -webkit-linear-gradient(177deg, rgba(255, 255, 255, 1) 0%, rgba(209, 209, 209, 1) 100%);
+}
+
+.text-gradient {
+   background: -webkit-linear-gradient(275deg, rgba(255, 255, 255, 1) 0%, rgba(140, 140, 140, 1) 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
 
+h1 {
+   font-family: "Special Gothic Expanded One", sans-serif;
+   font-weight: 800;
+}
+
 h2 {
+   font-family: "Special Gothic Expanded One", sans-serif;
    font-weight: 700;
-   font-size: 50px;
-   background: -webkit-linear-gradient(275deg, rgba(255, 255, 255, 1) 0%, rgba(140, 140, 140, 1) 100%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   font-size: 55px;
+}
+
+h3 {
+   font-weight: 600;
 }
 
 .container-fluid {
@@ -271,4 +305,91 @@ h2 {
    .index-card-container:hover .index-card:not(:hover) .index-card-title {
       opacity: 1;
    }
+}
+
+/* INDEX BANNER IMAGE */
+
+.index-banner-1 {
+   margin-top: 100px;
+   padding: 50px 100px;
+   padding-bottom: 90px;
+   background-image: url("/assets/images/banner1.jpg");
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* How To Play */
+
+.HowToPLay {
+   width: 100%;
+   height: 100vh;
+}
+
+.HowToPLay .swiper-wrapper .swiper-slide {
+   padding-top: 150px;
+   padding-bottom: 150px;
+}
+
+.HowToPLay .swiper-wrapper .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.swiper-slide h2 {
+   text-align: left;
+   font-size: 28px;
+   font-weight: 600;
+}
+
+.step-span {
+   background-color: #a600ff;
+   color: #fff;
+   font-size: 18px;
+   position: absolute;
+   font-weight: 500;
+   margin-left: 30px;
+}
+
+.glass-area {
+   background: rgba(10, 10, 10, 0.6);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(100, 100, 100, 0.1);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   width: 100%;
+   padding: 25px;
+}
+
+.swiper-slide {
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.swiper-slide.frist-step {
+   background-image: url("/assets/images/how-to-play/step-1.jpg");
+}
+
+.swiper-slide.second-step {
+   background-image: url("/assets/images/how-to-play/step-2.jpg");
+}
+
+.swiper-slide.thirt-step {
+   background-image: url("/assets/images/how-to-play/step-3.jpg");
+}
+
+.pc-requirements td {
+   padding: 7px 5px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.next-step {
+   position: absolute;
+   bottom: 25px;
+   right: 25px;
 }
