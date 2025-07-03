@@ -370,16 +370,24 @@ h3 {
    background-size: cover;
 }
 
-.swiper-slide.frist-step {
+.frist-step {
    background-image: url("/assets/images/how-to-play/step-1.jpg");
 }
 
-.swiper-slide.second-step {
+.second-step {
    background-image: url("/assets/images/how-to-play/step-2.jpg");
 }
 
-.swiper-slide.thirt-step {
+.thirt-step {
    background-image: url("/assets/images/how-to-play/step-3.jpg");
+}
+
+.fourth-step {
+   background-image: url("/assets/images/how-to-play/step-4.jpg");
+}
+
+.fifth-step {
+   background-image: url("/assets/images/how-to-play/step-5.jpg");
 }
 
 .pc-requirements td {
@@ -392,4 +400,10 @@ h3 {
    position: absolute;
    bottom: 25px;
    right: 25px;
+}
+
+.login{
+   width: 500px;
+   height: 100%;
+   border-radius: 0;
 }
