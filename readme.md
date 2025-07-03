@@ -85,6 +85,6 @@ Planned features to evolve this UI into a full-featured Assetto Corsa Server pla
    git clone https://github.com/tarikcansandal/assetto-corsa-server-website.git
    cd assetto-corsa-server-website
 
-## Ekstra
+## Information
 
 Images taken randomly from the google image search. They may be copyrighted. You should use no copyright images.
